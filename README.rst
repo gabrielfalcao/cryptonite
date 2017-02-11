@@ -1,3 +1,4 @@
+
 Cryptonite - Cryptography for Humans
 ====================================
 
@@ -12,7 +13,7 @@ Cryptonite - Cryptography for Humans
 Quick Start
 ###########
 
-.. code:: bash
+::
 
    $ pip install cryptonite
 
@@ -23,7 +24,7 @@ GPG
 Create a new GPG keyring
 ------------------------
 
-.. code:: python
+::
 
    from cryptonite.gpg import GPGKeyring
 
@@ -49,7 +50,7 @@ Create a new GPG keyring
 Get the private key
 ------------------
 
-.. code:: python
+::
 
    from cryptonite.gpg import GPGKeyring
 
@@ -70,7 +71,7 @@ Get the private key
 Get the public key
 ------------------
 
-.. code:: python
+::
 
    from cryptonite.gpg import GPGKeyring
 
@@ -91,7 +92,7 @@ Get the public key
 Import a key from a file
 ------------------------
 
-.. code:: python
+::
 
    from cryptonite.gpg import GPGKeyring
 
@@ -121,7 +122,7 @@ Import a key from a file
 Import a key from known servers
 -------------------------------
 
-.. code:: python
+::
 
    from cryptonite.gpg import GPGKeyring
 
@@ -149,7 +150,7 @@ AES
 AES CBC 128 and 256 bits
 ------------------------
 
-.. code:: python
+::
 
    from cryptonite.aes.cbc import AES128CBC
    # or
@@ -165,7 +166,7 @@ AES CBC 128 and 256 bits
 AES CTR 128 and 256 bits
 ------------------------
 
-.. code:: python
+::
 
    from cryptonite.aes.ctr import AES128CTR
    # or
