@@ -1,0 +1,3 @@
+"""
+cryptonite.console.gnupg
+"""
